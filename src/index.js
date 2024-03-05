@@ -1,6 +1,6 @@
 import './style.css';
 
-import Experience from './experience/Experience.js';
+import Experience from './Experience/Experience';
 
 const canvas = document.querySelector('canvas');
 const experience = new Experience(canvas);

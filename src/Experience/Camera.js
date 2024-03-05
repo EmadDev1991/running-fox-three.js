@@ -1,6 +1,6 @@
 import * as THREE from "three";
 import {  OrbitControls } from 'three/examples/jsm/controls/OrbitControls.js'
-import Experience from "./Experience";
+import Experience from './Experience.js';
 
 
 export default class Camera {
@@ -11,8 +11,6 @@ export default class Camera {
     this.scene = this.experience.scene;
     this.setInstance();
     this.setOrbitControls();
-
-    console.log(this)
   }
 
   setInstance(){
